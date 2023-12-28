@@ -16,12 +16,12 @@ source:
   id: pkg:github/valentjn/ltex-ls@16.0.0
   asset:
     - target: unix
-      file: ltex-ls-{{version}}.tar.gz
+      file: ltex-ls-{{version}}-linux-x64.tar.gz
       bin:
         lsp: ltex-ls-{{version}}/bin/ltex-ls
         cli: ltex-ls-{{version}}/bin/ltex-cli
     - target: win
-      file: ltex-ls-{{version}}.tar.gz
+      file: ltex-ls-{{version}}-windows-x64.tar.gz
       bin:
         lsp: ltex-ls-{{version}}/bin/ltex-ls.bat
         cli: ltex-ls-{{version}}/bin/ltex-cli.bat
